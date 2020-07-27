@@ -6,14 +6,14 @@ import java.util.ArrayList;
 
 public class Hottel {
 
-    private ArrayList<Tenant> tenants = new ArrayList<>();
+    private ArrayList<Tenant> tenants;
 
     public Hottel(ArrayList<Tenant> tenants) {
         this.tenants = tenants;
     }
 
-    public void show(){
-        for (Tenant tenant: tenants) {
+    public void show() {
+        for (Tenant tenant : tenants) {
             tenant.showAll();
         }
     }

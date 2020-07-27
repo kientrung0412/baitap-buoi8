@@ -13,5 +13,4 @@ public class Tenant extends Human {
         this.typeRoom = typeRoom;
     }
 
-
 }
