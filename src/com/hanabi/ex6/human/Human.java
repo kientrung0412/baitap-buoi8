@@ -7,7 +7,21 @@ public class Human {
     private short birth;
     private String humanId;
 
+    public String getName() {
+        return name;
+    }
 
+    public short getAge() {
+        return age;
+    }
+
+    public short getBirth() {
+        return birth;
+    }
+
+    public String getHumanId() {
+        return humanId;
+    }
 
     public Human(String name, short age, short birth, String humanId) {
         this.name = name;
